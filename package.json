@@ -56,8 +56,16 @@
     }
   },
   "dependencies": {
-    "vue": "^2.5.16",
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-regular-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
     "axios": "^0.18.0",
+    "echarts": "^4.1.0",
+    "element-ui": "^2.5.4",
+    "vue": "^2.5.16",
+    "vue-echarts": "^4.0.1",
     "vue-electron": "^1.0.6",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1",

@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
+// import Index from '@/views/Index'
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'landing-page',
-      component: require('@/components/LandingPage').default
+      name: 'index',
+      component: resolve => require(['../views/index.vue'], resolve)
     },
     {
       path: '*',
